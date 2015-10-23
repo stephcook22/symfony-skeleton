@@ -1,0 +1,22 @@
+{
+  "name": "symfony-skeleton",
+  "version": "0.0.1",
+  "author": "Laurent Brunet <lbrunet@jolicode.com>",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    
+    
+    
+    
+    
+    
+    
+    
+    "grunt-cli": "^0.1.13",
+    "grunt": "^0.4.5"
+  }
+}
