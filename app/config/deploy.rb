@@ -22,5 +22,10 @@ set :use_composer, true
 set :shared_files,      ["app/config/parameters.yml"]
 set :shared_children,     [app_path + "/logs", web_path + "/uploads", "vendor", app_path + "/sessions"]
 
+set :writable_dirs,       ["app/cache", "app/logs"]
+set :webserver_user,      "www-data"
+set :permission_method,   :chown
+set :use_set_permissions, true
+
 # Be more verbose by uncommenting the following line
 logger.level = Logger::MAX_LEVEL
