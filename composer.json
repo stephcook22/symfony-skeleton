@@ -4,20 +4,19 @@
     "type": "project",
     "description": "The \"Symfony Standard Edition\" distribution",
     "autoload": {
-        "psr-4": { "": "src/" }
+        "psr-4": { "": "src/" },
+        "files": [ "app/AppKernel.php" ]
     },
     "require": {
         "php": ">=5.3.9",
-        "symfony/symfony": "2.7.*",
+        "symfony/symfony": "2.8.x-dev",
         "doctrine/orm": "^2.4.8",
         "doctrine/doctrine-bundle": "~1.4",
         "symfony/swiftmailer-bundle": "~2.3",
         "symfony/monolog-bundle": "~2.4",
-        "sensio/distribution-bundle": "~4.0",
+        "sensio/distribution-bundle": "~5.0@dev",
         "sensio/framework-extra-bundle": "^3.0.2",
-        "incenteev/composer-parameter-handler": "~2.0",
-        "doctrine/doctrine-fixtures-bundle": "^2.2",
-        "doctrine/doctrine-migrations-bundle": "^1.1"
+        "incenteev/composer-parameter-handler": "~2.0"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"
@@ -51,7 +50,7 @@
             "file": "app/config/parameters.yml"
         },
         "branch-alias": {
-            "dev-master": "2.7-dev"
+            "dev-master": "2.8-dev"
         }
     }
 }
